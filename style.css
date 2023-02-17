@@ -8,7 +8,7 @@
 }
 
 #root {
-  background-color: #f1f5fa;
+  background-color: #e5e5e5;
 }
 
 li {
@@ -30,6 +30,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  background-color: #fff;
 }
 
 .nav-items {
@@ -69,10 +70,8 @@ a {
   top: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 110vh;
-  background-image: url(./images/desktop-images/deskBackground-Home.png);
-  margin-bottom: 230px;
-  background-position-y: 100%;
+  height: 100vh;
+  background-image: url(./images/mbTemplate.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,8 +113,8 @@ a {
 }
 
 #index #container-def {
-  width: 60%;
-  height: 45%;
+  width: 85%;
+  height: 50%;
   display: flex;
   flex-direction: column;
 }
