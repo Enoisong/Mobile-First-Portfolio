@@ -17,9 +17,9 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Portfolio Setup and Mobile First <a name="about-project"></a> 
+# 📖  Mobile First Portfolio <a name="about-project"></a> 
  
-Portfolio Setup and Mobile First is a mobile website designed as part of Microverse coursework.
+Mobile First Portfolio is a mobile website designed as part of Microverse coursework.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,12 +46,12 @@ Install Live server VScode extension and run Go Live
 
 ### Setup
 Clone this repository to your desired folder: 
-https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First.git
+https://github.com/Enoisong/Mobile-First-Portfolio.git
 
 ### Install
 Install this project with:
 
- VScode
+ VSCode
 
 ### Usage
 
@@ -64,7 +64,7 @@ To run linters tests, run the following command:
 npx hint .
 npx stylelint "**/*.{css,scss}"
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 ## 👥 Author <a name="author"></a> 
 Enobong Isong
 
@@ -75,9 +75,9 @@ Enobong Isong
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add List of Portfolio]  
-- [Add Contact Form]  
-- [Add Footer]  
+- Add List of Portfolio  
+- Add Contact Form  
+- Add Footer  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +98,6 @@ I would like to acknowledge Microverse community for thier support.
 ## 📝 License <a name="license"></a>  
 
 This project is [MIT](./LICENSE) licensed.
-This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
