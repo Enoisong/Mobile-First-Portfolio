@@ -10,48 +10,58 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
- - [👥 Authors](#authors)
+  - [👥 Authors](#authors)
  - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Portfolio Setup and Mobile First <a name="about-project"></a> 
+# 📖Mobile-First-Portfolio <a name="about-project"></a> 
  
-Portfolio Setup and Mobile First is a mobile website designed as part of Microverse coursework.
+Mobile-First-Portfolio is a webpage that showcase my design ability for Mobile first before desktop and other devices. It is built on the premise that greater percentage of users accesses Mobile devices first.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML and CSS
+- HTML 
+- CSS
+- Linters
 
 ### Tech Stack <a name="tech-stack"></a>
-HTML and CSS
+
+- HTML 
+- CSS
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
+
 - The toolbar
 - Headline section
 - Styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-clone from repository: https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First
+clone from repository: https://github.com/Enoisong/Mobile-First-Portfolio
 
 ### Prerequisites
+
 In order to run this project you need to:
+
 Install Live server VScode extension and run Go Live
 
 ### Setup
+
 Clone this repository to your desired folder: 
-https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First.git
+https://github.com/Enoisong/Mobile-First-Portfolio.git
 
 ### Install
+
 Install this project with:
 
- VScode
+ - VScode
 
 ### Usage
 
@@ -64,8 +74,10 @@ To run linters tests, run the following command:
 npx hint .
 npx stylelint "**/*.{css,scss}"
 
+
 <!-- AUTHORS -->
 ## 👥 Author <a name="author"></a> 
+
 Enobong Isong
 
 👤 **Author**
@@ -75,9 +87,10 @@ Enobong Isong
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add List of Portfolio]  
-- [Add Contact Form]  
-- [Add Footer]  
+These sections will be added to this project
+- List of Portfolio  
+- Contact Form  
+- Add Footer 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +102,9 @@ If you like this project, give me a star
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 I would like to acknowledge Microverse community for thier support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
