@@ -32,6 +32,8 @@ HTML and CSS
 ### Key Features <a name="key-features"></a>
 - The toolbar
 - Headline section
+- Work Section
+- About Myself
 - Styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
