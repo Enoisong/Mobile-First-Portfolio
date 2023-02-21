@@ -113,7 +113,11 @@ a {
   transform: scale(1.3);
 }
 
-#works-container .container .work-description .description-element li:first-child {
+#works-container
+  .container
+  .work-description
+  .description-element
+  li:first-child {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -484,6 +488,7 @@ a {
 }
 
 #contact-container {
+  position: relative;
   background-image: url(./images/contact_backward.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -610,7 +615,11 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-#works-container .container .work-description .description-element li:first-child {
+#works-container
+  .container
+  .work-description
+  .description-element
+  li:first-child {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -666,8 +675,12 @@ a {
   }
 
   @keyframes example {
-    from { color: blue; }
-    to { color: red; }
+    from {
+      color: blue;
+    }
+    to {
+      color: red;
+    }
   }
 
   #index #container-def p {
@@ -736,7 +749,11 @@ a {
     width: 12px;
   }
 
-  #works-container .container .work-description .description-element li:first-child {
+  #works-container
+    .container
+    .work-description
+    .description-element
+    li:first-child {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -810,4 +827,14 @@ a {
     width: 40px;
     margin: 0;
   }
+}
+
+.curve {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 328px;
+  top: 2rem;
+
+  background: #ffffff;
 }
