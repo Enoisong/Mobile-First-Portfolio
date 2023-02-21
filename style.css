@@ -113,23 +113,19 @@ a {
   transform: scale(1.3);
 }
 
-#works-container 
-  .container
-  .work-description
-  .description-element
-  li:first-child {
+/* #works-container .container .work-description .description-element li:first-child {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   list-style: none;
   color: #344563;
-}
+} */
 
-#index #container-def #icon-section ul li {
+/* #index #container-def #icon-section ul li {
   list-style: none;
   display: flex;
-}
+} */
 
 #index #container-def {
   width: 85%;
@@ -533,6 +529,7 @@ a {
 #description-contact-box .contact-description-1:hover {
   transform: translateX(10px);
 }
+
 #contact-container #input-contact-box {
   height: 500px;
   display: flex;
@@ -599,27 +596,23 @@ a {
   border: none;
 }
 
-#works-container .container .work-description h4 {
+/* #works-container .container .work-description h4 {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   font-family: "Poppins", sans-serif;
   color: #172b4d;
-}
+} */
 
-#index #container-def h4 {
+/* #index #container-def h4 {
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   font-family: "Poppins", sans-serif;
-}
+} */
 
-#works-container
-  .container
-  .work-description
-  .description-element
-  li:first-child {
+#works-container .container .work-description .description-element li:first-child {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -678,6 +671,7 @@ a {
     from {
       color: blue;
     }
+
     to {
       color: red;
     }
@@ -749,11 +743,15 @@ a {
     width: 12px;
   }
 
-  #works-container
-    .container
-    .work-description
-    .description-element
-    li:first-child {
+  #about-container .about-content-box .icon-content-element li {
+    list-style: none;
+  }
+
+  #about-container .about-content-box .icon-content-element li:hover {
+    transform: scale(1.3);
+  }
+
+  #works-container .container .work-description .description-element li:first-child {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -812,7 +810,7 @@ a {
     display: flex;
   }
 
-  .box-languages {
+  /* .box-languages {
     width: 110px;
     height: 80px;
     padding: 0 0 15px 5px;
@@ -821,7 +819,8 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-  }
+  } */
+
   .box-languages {
     width: 90%;
     height: 40px;
@@ -837,11 +836,11 @@ a {
     line-height: 20px;
     font-weight: 500;
   }
-  
+
   .box-languages .icon-1 {
     margin-right: 20px;
   }
-  
+
   .refer-link {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -849,7 +848,7 @@ a {
     line-height: 24px;
     color: #7f8cff;
   }
-  
+
   #about-container .about-content-box .icon-content-element {
     width: 40%;
     margin-top: 20px;
@@ -858,15 +857,7 @@ a {
     align-items: center;
     transition: transform 0.05s ease-out;
   }
-  
-  #about-container .about-content-box .icon-content-element li {
-    list-style: none;
-  }
-  
-  #about-container .about-content-box .icon-content-element li:hover {
-    transform: scale(1.3);
-  }
-  
+
   #contact-container {
     background-image: url(./images/contact_backward.png);
     background-size: cover;
@@ -876,7 +867,7 @@ a {
     padding: 100px 20px 0;
     height: 112vh;
   }
-  
+
   #description-contact-box {
     width: 90%;
     margin: auto;
@@ -887,7 +878,7 @@ a {
     align-items: center;
     margin-bottom: 50px;
   }
-  
+
   #description-contact-box .contact-title-1 {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -896,7 +887,7 @@ a {
     color: white;
     margin-bottom: 20px;
   }
-  
+
   #description-contact-box .contact-description-1 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -908,11 +899,11 @@ a {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
   }
-  
+
   #description-contact-box .contact-description-1:hover {
     transform: translateX(10px);
   }
-  
+
   #contact-container #input-contact-box {
     height: 500px;
     display: flex;
@@ -920,13 +911,13 @@ a {
     justify-content: space-between;
     margin-bottom: 20px;
   }
-  
+
   #contact-container .label {
     font-family: "Poppins", sans-serif;
     color: white;
     margin: 10px 0 5px;
   }
-  
+
   #contact-container #input-contact-box .input-i {
     font-family: "Poppins", sans-serif;
     height: 48px;
@@ -939,7 +930,7 @@ a {
     margin-bottom: 10px;
     outline: none;
   }
-  
+
   #contact-container #input-contact-box .input-m {
     font-family: "Poppins", sans-serif;
     padding: 5px 5px 0;
@@ -951,7 +942,7 @@ a {
     outline: none;
     letter-spacing: 2px;
   }
-  
+
   #contact-container .get-touch-btn {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -966,14 +957,14 @@ a {
     border-radius: 8px;
     border: none;
   }
-  
+
   #contact-container .get-touch-btn:hover {
     background: #6070ff;
     box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
     border: 1px solid #fff;
     color: #fff;
   }
-  
+
   #contact-container .get-touch-btn:active {
     background: #2230d2;
     border: none;
