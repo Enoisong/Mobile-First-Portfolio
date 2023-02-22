@@ -810,16 +810,6 @@ a {
     transition: transform 0.05s ease-out;
   }
 
-  /* #contact-container {
-    background-image: url(./images/contact_backward.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 2;
-    margin: -120px auto;
-    padding: 100px 20px 0;
-    height: 112vh;
-  } */
-
   #description-contact-box {
     width: 90%;
     margin: auto;
