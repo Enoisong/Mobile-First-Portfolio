@@ -252,8 +252,7 @@ a {
   background: #ebebff;
 }
 
-@media screen and (max-width: 991px) {
-  .nav-items {
+.nav-items {
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -305,8 +304,8 @@ a {
   #index {
     margin-bottom: 100px;
   }
-}
 
+  
 .btn {
   width: 124px;
   height: 48px;
