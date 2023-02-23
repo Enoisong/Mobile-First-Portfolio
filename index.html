@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./app.css">
-    <title>Setup Mobile First Portfolio</title>
+    <title>Setup Portfolio Desktop Version</title>
 </head>
 <body>
     <main id="root">
-        <header class="navbar">
+    <header>
+        <nav class="navbar">
             <div id="logo">
-                 <a href="#index"><img src="./images/MyLogo.png" alt="logo" /></a>
-             </div>
-             <nav>
-                   <div id="img">
-                       <img class="hamburger" src="./images/Union.png" alt="">
-                   </div>           
-               </nav>
-        </header>   
-        <section id="index">
-            <div id="container-def">
+                <a href="#index"><img src="./images/MyLogo.png" alt="logo" /></a>
+            </div>  
+            <ul class="nav-items">
+                <li class="portfolio item"><a href="#works-container" class="link">Portfolio</a></li>
+                <li class="about item"><a href="#about-container" class="link">About</a></li>
+                <li class="contact item"><a href="#contact-container" class="link">Contact</a></li>
+                <li class="closeMenu"><i class="fa fa-times"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="index">
+        <div id="container-def">
             <h1>
                 I'm Enobong <br />
                 Glad to see you!
@@ -31,9 +34,10 @@
                 I’m a software developer! I can help you build a product, feature
                 or website Look through some of my work and experience. If you like
                 what you see and have a project you need coded, don’t hesitate to
-                contact me. 
+                contact me.
             </p>
             <br />
+
             <h4>LET'S CONNECT</h4>
             <div id="icon-section">
                 <ul>
@@ -57,10 +61,11 @@
                         <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/angellist.svg"
                                 alt="Angellist icon" /></a>
                     </li>
-                </ul>            
+                </ul>
             </div>
-        </section>          
-            <div class="winUp hidden" id="popup">
+        </div>
+    </section>   
+     <div class="winUp hidden" id="popup">
             <div class="container windowPopup popup">
                 <div class="pop-header">
                     <h4 class="h-4">Tonic</h4>
@@ -92,12 +97,19 @@
                             <li class="lang2">javaScript</li>
                         </ul>
                         <div class="bottom-bar"></div>
-                        <div class="navigation-links">                            
+                        <div class="navigation-links">
+                            <form action="github.com/Enoisong/Portfolio-Mobile" class="btnSource">
+                                <input class="btn" type="submit" value="See live" /><i
+                                    class="fab fas-external-link-alt"></i>
+                            </form>
+                            <form action="github.com/Enoisong/Portfolio-Mobile" class="btnDemo">
+                                <input class="btn" type="submit" value="See Source"> <i class="fab fas-github"></i>
+                            </form>
                         </div>
                     </div>
                 </div>
-              </div>
             </div>
+        </div>
         <section id="works-container">
             <div class="container">
                 <img class="work-pic" src="./images/Portoflio_Card/work.png" alt="nature image" />
@@ -115,7 +127,7 @@
                         </li>
                         <li class="element">2015</li>
                     </ul>
-                    <p class="description-text descriptionTxt">
+                    <p class="description-tex descriptionTxt">
                         A daily selection of privately personalized reads; no accounts or
                         sign-ups required.
                     </p>
@@ -132,7 +144,7 @@
                 <div class="work-description">
                     <h4>Multi-Post Stories</h4>
                     <ul class="description-element">
-                        <li>CANOPY</li>
+                        <li>FACEBOOK</li>
                         <li class="element">
                             <img class="bullet" src="./images/bullet.png" alt="bullet" />
                         </li>
@@ -142,12 +154,13 @@
                         </li>
                         <li class="element">2015</li>
                     </ul>
-                    <p class="description-text descriptionTxt">
+                    <p class="description-txt descriptionTxt">
                         A daily selection of privately personalized reads; no accounts or
                         sign-ups required.
                     </p>
                     <ul class="languages">
-                        <li class="lang">html</li>                       
+                        <li class="lang">html</li>
+                        <li class="ruby">Ruby on rails</li>
                         <li class="lang1">css</li>
                         <li class="lang2">javaScript</li>
                     </ul>
@@ -156,13 +169,14 @@
                 </div>
                 <img class="work-pic-1" src="./images/desktop-images/img2.png" alt="professional art printing image" />
             </div>
+
             <div class="container">
                 <img class="work-pic" src="./images/Portoflio_Card/work2.png" alt="facebook 360 image" />
                 <img class="work-pic" src="./images/desktop-images/img3.png" alt="landing view, desktop-image" />
                 <div class="work-description">
-                    <h4>TONIC</h4>
+                    <h4>FACEBOOK 360</h4>
                     <ul class="description-element">
-                        <li>CANOPY</li>
+                        <li>FACEBOOK</li>
                         <li class="element">
                             <img class="bullet" src="./images/bullet.png" alt="bullet" />
                         </li>
@@ -177,7 +191,8 @@
                         sign-ups required.
                     </p>
                     <ul class="languages">
-                        <li class="lang">html</li>                     
+                        <li class="lang">html</li>
+                        <li class="ruby">Ruby on rails</li>
                         <li class="lang1">css</li>
                         <li class="lang2">javaScript</li>
                     </ul>
@@ -187,9 +202,9 @@
             <div class="container">
                 <img class="work-pic" src="./images/Portoflio_Card/work3.png" alt="professional art printing" />
                 <div class="work-description">
-                    <h4>Multi-Post Stories</h4>
+                    <h4>Uber Navigation</h4>
                     <ul class="description-element">
-                        <li>Canopy</li>
+                        <li>Uber</li>
                         <li class="element">
                             <img class="bullet" src="./images/bullet.png" alt="bullet" />
                         </li>
@@ -204,7 +219,8 @@
                         sign-ups required.
                     </p>
                     <ul class="languages">
-                        <li class="lang">html</li>                       
+                        <li class="lang">html</li>
+                        <li class="ruby">Ruby on rails</li>
                         <li class="lang1">css</li>
                         <li class="lang2">javaScript</li>
                     </ul>
@@ -224,7 +240,7 @@
                         Hello I’m a software developer! I can help you build a product,
                         feature or website. Look through some of my work and experience! If
                         you like what you see and have a project you need coded, don’t
-                        hestiate to contact me. 
+                        hestiate to contact me.
                     </p>
                     <h4 class="refer-link">LET'S CONNECT</h4>
                     <ul class="icon-content-element">
@@ -251,6 +267,7 @@
                     </ul>
                     <button class="get-it-btn" type="submit">Get my resume</button>
                 </div>
+
                 <div id="languages-slider">
                     <ul>
                         <li id="languages-slider-1">
@@ -284,11 +301,11 @@
                     </ul>
                 </div>
             </div>
-        </section>  
+        </section>
         <section id="contact-container">
             <div id="contact-items">
                 <div id="description-contact-box">
-                    <h1 class="contact-title-1">Contact me</h1> 
+                    <h1 class="contact-title-1">Contact me</h1>
                     <p class="contact-description-1">
                         If you have an application you are interested in developing, a
                         feature that you need built or a project that needs coding. I’d
