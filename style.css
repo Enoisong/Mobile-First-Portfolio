@@ -84,7 +84,7 @@ a {
   background-image: url(./images/mbTemplate.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 110vh;
+  height: 125vh;
 }
 
 #index #container-def {
@@ -183,6 +183,7 @@ a {
   line-height: 16px;
   color: rgb(116 129 153);
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .bullet {
@@ -314,8 +315,8 @@ a {
 .btn:hover {
   top: calc(50% - 48px / 2 + 57.5px);
   background: #6070ff;
-  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
-  color: #fff;
+  color: rgb(255, 255, 255);
+  background-color: blue;
 }
 
 #about-container {
@@ -466,7 +467,7 @@ a {
   z-index: 2;
   margin: -120px auto;
   padding: 100px 20px 0;
-  height: 135vh;
+  height: 140vh;
 }
 
 #description-contact-box {
@@ -709,10 +710,12 @@ a {
 
   #works-container .container .work-description #languages-1 {
     width: 45%;
+    margin-top: 20px;
   }
 
   #works-container .container .work-description .languages {
     width: 73%;
+    margin-top: 20px;
   }
 
   #works-container .container .work-description .languages .ruby {
@@ -725,6 +728,7 @@ a {
     border-radius: 8px;
     color: #6070ff;
     background: rgb(235 235 255);
+    padding-right: 5px;
   }
 
   #about-container {
