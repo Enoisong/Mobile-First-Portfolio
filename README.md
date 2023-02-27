@@ -35,6 +35,7 @@ HTML and CSS
 - Work Section
 - About Myself
 - Styling
+- Portfolio Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -79,7 +80,8 @@ Enobong Isong
 
 - Add List of Portfolio  
 - Add Contact Form  
-- Add Footer  
+- Add Footer
+- Add Animation 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
