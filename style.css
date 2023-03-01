@@ -51,7 +51,7 @@
   background-color: #fff;
 }
 
-.intro {
+.introduction {
   display: flex;
   flex-direction: column;
   height: 50%;
@@ -95,14 +95,14 @@ li {
   list-style-type: none;
 }
 
-.social-icon {
+.icon1 {
   display: flex;
   gap: 5px;
   align-items: center;
   width: 50%;
 }
 
-.workcards {
+.workcontainer {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -168,7 +168,7 @@ li {
   margin: 10px 10px 10px 0;
 }
 
-.tags {
+.langs {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -217,7 +217,7 @@ li {
   color: white;
 }
 
-.about-myself {
+.about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -367,7 +367,7 @@ li {
   color: #253858;
 }
 
-.form-sec {
+.form-section {
   height: 90vh;
   background-color: #fff;
 }
@@ -518,7 +518,7 @@ li {
     width: 25%;
   }
 
-  .deskNav {
+  .hamburger {
     width: 40%;
   }
 
@@ -562,7 +562,7 @@ li {
     align-items: center;
   }
 
-  .intro {
+  .introduction {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -601,7 +601,7 @@ li {
     color: #344563;
   }
 
-  .workcards {
+  .workcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -725,7 +725,7 @@ li {
     margin: 10px 10px 10px 0;
   }
 
-  .tags {
+  .langs {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -755,7 +755,7 @@ li {
     transition: all 0.5s;
   }
 
-  .about-myself {
+  .about-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
