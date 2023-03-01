@@ -1,7 +1,3 @@
-#root {
-  background-color: #f1f5fa;
-}
-
 .navbar {
   height: 8vh;
   top: 0;
@@ -20,6 +16,10 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  animation: rotation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
 }
 
 .navbar-items {
@@ -46,15 +46,15 @@
   padding: 20px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 90%;
+  background-position: auto 90%;
   border-bottom-left-radius: 85px;
   background-color: #fff;
 }
 
-.introduction {
+.intro {
   display: flex;
   flex-direction: column;
-  height: 70%;
+  height: 50%;
   margin: 25px 0;
   padding: 0 15px;
 }
@@ -95,14 +95,14 @@ li {
   list-style-type: none;
 }
 
-.icon1 {
+.social-icon {
   display: flex;
   gap: 5px;
   align-items: center;
   width: 50%;
 }
 
-.workcontainer {
+.workcards {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -122,7 +122,7 @@ li {
   margin-top: 65px;
 }
 
-.works-description {
+.works-details {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -168,7 +168,7 @@ li {
   margin: 10px 10px 10px 0;
 }
 
-.langs {
+.tags {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -217,7 +217,7 @@ li {
   color: white;
 }
 
-.about-container {
+.about-myself {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -367,12 +367,12 @@ li {
   color: #253858;
 }
 
-.form-section {
+.form-sec {
   height: 90vh;
   background-color: #fff;
 }
 
-.background {
+.bg {
   border-top-left-radius: 85px;
   background-color: #6070ff;
   display: flex;
@@ -411,7 +411,7 @@ li {
   line-height: 52px;
 }
 
-.form-description {
+.form-desc {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -518,7 +518,7 @@ li {
     width: 25%;
   }
 
-  .hamburger {
+  .deskNav {
     width: 40%;
   }
 
@@ -562,12 +562,12 @@ li {
     align-items: center;
   }
 
-  .introduction {
+  .intro {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 60%;
-    height: 50%;
+    height: 40%;
   }
 
   .title {
@@ -636,6 +636,12 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
   }
 
   .portfolio-img img {
@@ -723,6 +729,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: -webkit-fill-available;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 8px;
@@ -797,7 +804,7 @@ li {
     transition: all 0.5s;
   }
 
-  .background {
+  .bg {
     background-image: url(pics/desktop-imgs/desktop\ form\ bg.svg);
     border-top-left-radius: 85px;
     background-size: 86%;
