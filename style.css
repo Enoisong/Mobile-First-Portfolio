@@ -15,11 +15,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
-  animation: rotation;
-  animation-duration: 0.2s;
-  animation-iteration-count: 1;
-  animation-delay: 2s;
+  color: #6070ff;  
 }
 
 .navbar-items {
@@ -122,7 +118,7 @@ li {
   margin-top: 65px;
 }
 
-.works-details {
+.works-description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -586,7 +582,7 @@ li {
     width: 100%;
   }
 
-  .social-icon {
+  .icon1 {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -635,13 +631,7 @@ li {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    animation-name: slidein;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-delay: 1s;
+    align-items: center;    
   }
 
   .portfolio-img img {
@@ -676,7 +666,7 @@ li {
     background-size: cover;
   }
 
-  .works-details {
+  .works-description {
     padding-left: 3px;
     width: 45%;
     height: 100%;
