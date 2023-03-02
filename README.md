@@ -79,7 +79,8 @@ Enobong Isong
 
 - Add List of Portfolio  
 - Add Contact Form  
-- Add Footer  
+- Add Footer 
+- Add Animation and Transition 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
