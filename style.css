@@ -16,6 +16,11 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  animation: rotation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+
 }
 
 .navbar-items {
@@ -632,6 +637,13 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+
   }
 
   .portfolio-img img {
