@@ -15,7 +15,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;  
+  color: #6070ff;
 }
 
 .navbar-items {
@@ -631,7 +631,7 @@ li {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
   }
 
   .portfolio-img img {
