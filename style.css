@@ -16,6 +16,10 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  animation: rotation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
 }
 
 .navbar-items {
