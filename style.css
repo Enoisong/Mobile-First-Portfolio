@@ -46,7 +46,6 @@
   padding: 20px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: auto 90%;
   border-bottom-left-radius: 85px;
   background-color: #fff;
 }
@@ -729,8 +728,6 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: -webkit-fill-available;
-    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 8px;
   }
