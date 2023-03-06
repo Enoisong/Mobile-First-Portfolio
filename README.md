@@ -1,6 +1,5 @@
  <a name="readme-top"></a>
- 
-# 📗 Table of Contents
+ # 📗 Table of Contents
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -20,7 +19,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
 
 <!-- PROJECT DESCRIPTION -->
 # 📖  Mobile First Portfolio <a name="about-project"></a> 
