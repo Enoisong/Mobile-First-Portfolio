@@ -40,7 +40,7 @@ HTML and CSS
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo
-   https://enoisong.github.io/Mobile-First-Portfolio/
+  - https://enoisong.github.io/Mobile-First-Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First
