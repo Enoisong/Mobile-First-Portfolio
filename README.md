@@ -1,21 +1,26 @@
  <a name="readme-top"></a>
-## 📗 Table of Contents
+ 
+# 📗 Table of Contents
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - 🚀 Live Demo
- - [💻 Getting Started](#getting-started)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
- - [👥 Authors](#authors)
- - [🔭 Future Features](#future-features)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
+
 
 <!-- PROJECT DESCRIPTION -->
 # 📖  Mobile First Portfolio <a name="about-project"></a> 
@@ -39,8 +44,10 @@ HTML and CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo
-  - https://enoisong.github.io/Mobile-First-Portfolio/
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+- https://enoisong.github.io/Mobile-First-Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First
