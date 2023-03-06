@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - 🚀 Live Demo
  - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -37,7 +38,9 @@ HTML and CSS
 - Styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- GETTING STARTED -->
+
+## 🚀 Live Demo
+   https://enoisong.github.io/Mobile-First-Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First
