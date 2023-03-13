@@ -27,10 +27,14 @@ Mobile First Portfolio is a mobile website designed as part of Microverse course
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML and CSS
+- HTML
+- CSS
+- javascript
 
 ### Tech Stack <a name="tech-stack"></a>
-HTML and CSS
+- HTML
+- CSS
+- javascript
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
@@ -39,6 +43,8 @@ HTML and CSS
 - Work Section
 - About Myself
 - Styling
+- Mobile Menu
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,15 +79,20 @@ Install the Live server extension of the VScode and run Go Live
 To run linters tests, run the following command: 
 npx hint .
 npx stylelint "**/*.{css,scss}"
+npx eslint .
 
-<!-- AUTHOR -->
-## 👥 Author <a name="author"></a> 
-Enobong Isong
+<!-- AUTHORS -->
+## 👥 Authors <a name="author"></a> 
+- Enobong Isong
+- Wolter Bwambale
 
-👤 **Author**
+👤 **Authors**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
+
+WolterBwambale
+- https://github.com/wolterbwambale
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -89,6 +100,8 @@ Enobong Isong
 - Add Contact Form  
 - Add Footer 
 - Add Animation and Transition 
+- Mobile Menu
+- Pop-up Window
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

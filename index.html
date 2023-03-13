@@ -5,226 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;500;600;700&display=swap");
-    </style>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./app.css">
+    <script defer src="./Script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-90K7L4LZ2P"></script>
     <title>Mobile First Portfolio</title>
 </head>
 <body>
-    <header class="navbar">
-        <a class="logo" href="#">My Logo</a>
-        <nav class="hamburger">
-            <ul class="navbar-items">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <img class="hamburg" src="pics/hamburg.svg" alt="hamburg" />
-        </nav>
-    </header>
-    <section class="header">
-        <div class="introduction">
-            <h1 class="title">I’m Enobong<br>
-                Glad to see you!</h1>
-            <p class="description">I’m a software developer! I can help you build a product , feature or website Look
-                through some of my work and experience! If you like what you see and have a project you need coded,
-                don’t hesitate to contact me.</p>
-            <div class="icon">
-                <p class="text">LET’S CONNECT</p>
-                <ul class="icon1">
-                    <li class="twitter">
-                        <li> <a href="https://twitter.com/Enobongmisong" target="_blank" rel="noopener noreferrer"><img
-                            src="./images/twitter.svg" alt="twitter icon" /></a></li>
-                        <li> <a href="https://www.linkedin.com/in/enobong-isong/" target="_blank"
-                            rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="Linkedin icon" /></a></li>                    
-                        <li> <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/medium.svg"
-                                alt="Medium icon" /></a></li>
-                        <li> <a href="https://github.com/Enoisong" target="_blank" rel="noopener noreferrer"><img
-                                src="./images/github.svg" alt="Github icon" /></a></li>
-                        <li> <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/angellist.svg"
-                                alt="Angellist icon" /></a></li>
-                </ul>          
-            </div>
-        </div>
-    </section>
-    <section class="workcontainer">
-        <div class="card">
-            <div class="portfolio-img pic1">
-                <img class="pic" src="./pics/works img/work1.svg" alt="card1" />
-            </div>
-            <div class="works-description">
-                <h1 class="comp-title">Tonic</h1>
-                <ul class="work-title">
-                    <li class="client">CANOPY</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
-                    <li class="dim">Back End Dev</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
-                    <li class="dim">2015</li>
+    <main id="root">
+        <header>
+            <nav class="navbar">
+                <div id="logo">
+                    <a href="#index"><img src="./images/MyLogo.png" alt="logo" /></a>
+                </div>               
+                <div>
+                <img class="openMenu" src="pics/hamburg.svg" alt="hamburg" />
+                </div>
+                <ul class="nav-items">
+                    <li class="portfolio item"><a href="#works-container" class="link">Portfolio</a></li>
+                    <li class="about item"><a href="#about-container" class="link">About</a></li>
+                    <li class="contact item"><a href="#contact-container" class="link">Contact</a></li>
+                    <div>
+                        <img class="closeMenu" src="pics/close.png" alt="closeMenu" />
+                    </div>                
                 </ul>
-                <div class="project-desc">
-                    <p>A daily selection of privately personalized reads; <br>no accounts or sign-ups required.
+            </nav>
+        </header>
+        <section id="index">
+            <div id="container-def">
+                <h1>
+                    I'm Enobong <br /> Glad to see you!
+                </h1>
+                <p>
+                    I’m a software developer! I can help you build a product , feature or website Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hesitate to contact me.
+                </p>
+                <br />
+                <h2>LET'S CONNECT</h2>
+                <div id="icon-section">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/Enobongmisong" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.svg" alt="twitter icon" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/enobong-isong/" target="_blank" rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="Linkedin icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/medium.svg" alt="Medium icon" /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Enoisong" target="_blank" rel="noopener noreferrer"><img src="./images/github.svg" alt="Github icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/angellist.svg" alt="Angellist icon" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="winUp hidden" id="popup"></div>
+        <div id="workscontainer">
+        </div>
+        <section id="about-container">
+            <div class="about-content-box">
+                <div id="about-inside-left-box">
+                    <h3 class="about-title">
+                        About <br /> Myself
+                    </h3>
+                    <p class="about-description">
+                        Hello I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                    </p>
+                    <h2 class="refer-link">LET'S CONNECT</h2>
+                    <ul class="icon-content-element">
+                        <li>
+                            <a href="https://github.com/Enoisong" target="_blank" rel="noopener noreferrer"><img src="./images/github.svg" alt="github icon" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/enobong-isong/" target="_blank" rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="LinkdIn icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#" target="blank" rel="noopener noreferrer"><img src="./images/angellist.svg" alt="Angellist icon" /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Enobongmisong" target="_blank" rel="noopener noreferrer"><img src="./images/twitter.svg" alt="twitter icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/medium.svg" alt="Medium icon" /></a>
+                        </li>
+                    </ul>
+                    <button class="get-it-btn" type="submit">Get my resume</button>
+                </div>
+                <div id="languages-slider">
+                    <ul>
+                        <li id="languages-slider-1">
+                            Languages
+                            <img src="./images/Icons/arowB.png" alt="arrow bottom icon" />
+                        </li>
+                    </ul>
+                    <ul id="box-languages-items">
+                        <li class="box-languages">
+                            <img class="icon-1" src="./images/javaScript.png" alt="JavaScript icon" />
+                            <p class="lg-1">JavaScript</p>
+                        </li>
+                        <li class="box-languages">
+                            <img class="icon-1" src="./images/html5.png" alt="HTML5 icon" />
+                            <p class="lg-1">HTML</p>
+                        </li>
+                        <li class="box-languages">
+                            <img class="icon-1" src="./images/css3.png" alt="CSS3 icon" />
+                            <p class="lg-1">CSS</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li id="languages-slider-2">
+                            Frameworks
+                            <img src="./images/Icons/arowR.png" alt="arrow bottom icon" />
+                        </li>
+                        <li id="languages-slider-3">
+                            Skills
+                            <img src="./images/Icons/arowR.png" alt="arrow bottom icon" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact-container">
+            <div id="contact-items">
+                <div id="description-contact-box">
+                    <h5 class="contact-title-1">Contact me</h5>
+                    <p class="contact-description-1">
+                        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
                     </p>
                 </div>
-                <ul class="langs">
-                    <li class="tag">html</li>
-                    <li class="tag">css</li>
-                    <li class="tag">javaScript</li>
-                </ul>
-                <button class="btn">See Project</button>
-            </div>
-        </div>
-        <div class="card reverse">
-            <div class="portfolio-img pic2">
-                <img class="pic" src="./pics/works img/work4.svg" alt="card1" />
-            </div>
-            <div class="works-description">
-                <h1 class="comp-title">Multi-Post
-                    Stories</h1>
-                <ul class="work-title">
-                    <li class="client">FACEBOOK</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
-                    <li class="dim">Full Stacks Dev</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
-                    <li class="dim">2015</li>
-                </ul>
-                <div class="project-desc">
-                    <p>Experimental content creation feature that allows users to add to an existing story over the
-                        course of a day without spamming their friends.</p>
-                </div>
-                <ul class="langs">
-                    <li class="tag">html</li>
-                    <li class="tag">Ruby on rails</li>
-                    <li class="tag">css</li>
-                    <li class="tag">javaScript</li>
-                </ul>
-                <button class="btn">See Project</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="portfolio-img pic3">
-                <img class="pic" src="./pics/works img/work2.svg" alt="card1" />
-            </div>
-            <div class="works-description">
-                <h1 class="comp-title">Facebook 360
-                </h1>
-                <ul class="work-title">
-                    <li class="client">FACEBOOK</li>
-                    <li><img src="images/bullet2.svg" alt="dot"/></li>
-                    <li class="dim">Full Stacks Dev</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot"/></li>
-                    <li class="dim">2015</li>
-                </ul>
-                <div class="project-desc">
-                    <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and
-                        enjoy 360 photos and videos on Gear VR.</p>
-                </div>
-                <ul class="langs">
-                    <li class="tag">html</li>
-                    <li class="tag">Ruby on rails</li>
-                    <li class="tag">css</li>
-                    <li class="tag">javaScript</li>
-                </ul>
-                <button class="btn">See Project</button>
-            </div>
-        </div>
-        <div class="card reverse">
-            <div class="portfolio-img pic4">
-                <img class="pic" src="./pics/works img/work3.svg" alt="card1" />
-            </div>
-            <div class="works-description">
-                <h1 class="comp-title">Uber Navigation</h1>
-                <ul class="work-title">
-                    <li class="client">Uber</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
-                    <li class="dim">Lead Developer</li>
-                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
-                    <li class="dim">2015</li>
-                </ul>
-                <div class="project-desc">
-                    <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
-                        computer: your car.</p>
-                </div>
-                <ul class="langs">
-                    <li class="tag">html</li>
-                    <li class="tag">Ruby on rails</li>
-                    <li class="tag">css</li>
-                    <li class="tag">javaScript</li>
-                </ul>
-                <button class="btn">See Project</button>
-            </div>
-        </div>
-    </section>
-    <section class="about-container">
-        <div class="top">
-            <div class="about-title">About <br>
-                Myself</div>
-            <div class="about-content">
-                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-                my work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-                contact me.
-            </div>
-            <div class="about-sm">
-                <h4 class="supporting-text">LET’S CONNECT</h4>
-                <ul class="about-smedia-icons">
-                    <li><img src="pics/github icon.svg" alt="Github"></li>
-                    <li><img src="pics/Linkedin icon.svg" alt="Linkedin"></li>
-                    <li><img src="pics/angellist icon.svg" alt="Angellist"></li>
-                    <li><img src="pics/twitter icon.svg" alt="Linkedin"></li>
-                    <li><img src="pics/m icon.svg" alt="Med"></li>
-                </ul>
-            </div>
-            <button class="btn2">Get my resume</button>
-        </div>
-        <div class="experties">
-            <ul class="skill-list">
-                <li class="languages">
-                    <span class="Lang-title">Languages</span>
-                    <i class="fa fa-angle-down" style="font-size: 24px"></i>
-                </li>
-                <ul class="lang-list">
-                    <li class="lang">
-                        <img src="pics/works img/Icons/js icon.svg" alt="">
-                        <span>JavaScript</span>
-                    </li>
-                    <li class="lang">
-                        <img src="pics/works img/Icons/html icon.svg" alt="">
-                        <span>HTML</span>
-                    </li>
-                    <li class="lang">
-                        <img src="pics/works img/Icons/css icon.svg" alt="">
-                        <span>CSS</span>
-                    </li>
-                </ul>
-                <li class="languages border">
-                    <span class="Lang-title">Framework</span>
-                    <i class="fa fa-angle-right" style="font-size: 24px"></i>
-                </li>
-                <li class="languages border">
-                    <span class="Lang-title">Skills</span>
-                    <i class="fa fa-angle-right" style="font-size: 24px"></i>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="form-section">
-        <div class="bg">
-            <div class="form">
-                <div class="form-title">
-                    <h3>Contact me</h3>
-                    <p class="form-desc">If you have an application you are interested in developing, a feature that you
-                        need built or a project
-                        that needs coding. I’d love to help with it </p>
-                </div>
-                <form action="https://formspree.io/f/mgebkndp"  method="POST" class="mainForm">
-                    <input class="input" type="text" maxlength="30" id="name" required placeholder="Enobong">
-                    <input class="input" type="email" id="mail" required placeholder="misong4real@yahoo.com">
-                    <textarea id="msg" name="user-msg" maxlength="500" required placeholder="Write your message here..."></textarea>
-                    <button class="form-btn" type="submit">Get in touch</button>
+                <form id="input-contact-box" action="https://formspree.io/f/xpzbqlab" method="post">
+                    <label class="label" for="username"></label>
+                    <input id="username" class="input-i" name="username" type="text" maxlength="30" placeholder="Enobong Isong" required="required" />
+                    <label class="label" for="email"></label>
+                    <input id="email" class="input-i" name="email" type="email" placeholder="misong4real@yahoo.com" email address required="required" />
+                    <label class="label" id="input-message" for="msg"></label>
+                    <textarea class="input-m" name="msg" id="msg" maxlength="500" cols="20" rows="10" placeholder="Write your message here..." required="required"></textarea>
+                    <button class=" get-touch-btn" type="submit">Get In Touch</button>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 </html>
