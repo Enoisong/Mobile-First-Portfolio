@@ -46,7 +46,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  list-style: none;   
+  list-style: none;
 }
 
 .nav-items li a {
@@ -63,10 +63,10 @@ a {
 
 .navbar .openMenu {
   font-size: 1.4rem;
-  margin: 10px;  
+  margin: 10px;
   color: #7f8cff;
   display: none;
-  cursor: pointer;   
+  cursor: pointer;
 }
 
 .nav-items .closeMenu {
