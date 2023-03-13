@@ -83,8 +83,8 @@ npx eslint .
 
 <!-- AUTHORS -->
 ## 👥 Authors <a name="author"></a> 
-Enobong Isong
-Wolter Bwambale
+- Enobong Isong
+- Wolter Bwambale
 
 👤 **Authors**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
