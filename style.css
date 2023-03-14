@@ -216,7 +216,7 @@ a {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  color: rgb(52 69 99 / 100%);  
+  color: rgb(52 69 99 / 100%);
 }
 
 #workscontainer .container .work-description .languages {
@@ -236,7 +236,7 @@ a {
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
-  margin-bottom: 10px;     
+  margin-bottom: 10px; 
 }
 
 #workscontainer .container .work-description .languages .lang1 {
@@ -248,7 +248,7 @@ a {
   align-items: center;
   border-radius: 8px;
   color: #6070ff;
-  background: #ebebff;  
+  background: #ebebff;
 }
 
 #workscontainer .container .work-description .languages .lang2 {
@@ -431,7 +431,7 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 #languages-slider-1 {
@@ -442,7 +442,7 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 #languages-slider-2,
@@ -810,7 +810,7 @@ a {
     margin: 40px 0 -40px;
     width: 65%;
     height: auto;
-    display: flex;    
+    display: flex;
   }
 
   .box-languages {
@@ -821,12 +821,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;    
+    justify-content: space-around;
   }
 
   .box-languages .icon-1 {
     width: 40px;
-    margin: 0;   
+    margin: 0;
   }
 
   #contact-container {

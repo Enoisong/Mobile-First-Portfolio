@@ -123,20 +123,20 @@ function popupFunc(id) {
       </div>
   </div>
 </div>`;
-windowPopup.style.display = 'flex';
-navigationBarClose.style.display = 'none';
-document.body.style.overflow = 'hidden';
-popup.innerHTML = popupContent;
+  windowPopup.style.display = 'flex';
+  navigationBarClose.style.display = 'none';
+  document.body.style.overflow = 'hidden';
+  popup.innerHTML = popupContent;
 }
 function closePopupFunc(status) {
-if (status === null) return;
-windowPopup.style.display = 'none';
-navigationBarClose.style.display = 'flex';
-document.body.style.overflow = 'scroll';
+  if (status === null) return;
+  windowPopup.style.display = 'none';
+  navigationBarClose.style.display = 'flex';
+  document.body.style.overflow = 'scroll';
 }
 function worksContainer() {
-const element = projects.map((val, index) => {
-const cards = index % 2 === 0 ? `<div class="container">
+  const element = projects.map((val, index) => {
+    const cards = index % 2 === 0 ? `<div class="container">
 <img class="work-pic" src="./images/Portoflio_Card/work.png" alt="nature image" />
 <img class="work-pic" src=${val.pic} alt="landing page view" />
 <div class="work-description">
@@ -160,7 +160,7 @@ ${val.techUse.map((el) => `<li class="lang">${el}</li>`).join('')}
 <button class="btn openPopup" id="firstBtn" type="submit" onclick="popupFunc(${val.id})">See Project</button>
 </div>
 </div>`
-: ` <div class="container">
+      : ` <div class="container">
   <img class="work-pic" src="./images/Portoflio_Card/work1.png" alt="multi-post stories image" />
   <div class="work-description">
       <h4>${val.name}</h4>
@@ -184,14 +184,14 @@ ${val.techUse.map((el) => `<li class="lang">${el}</li>`).join('')}
   </div>
   <img class="work-pic-1" src=${val.pic} alt="professional art printing image" />
 </div>`;
-return cards;
-});
-return element;
+    return cards;
+   });
+  return element;
 }
 
 window.addEventListener('load', () => {
-mainContainer.innerHTML = worksContainer();
-return mainContainer;
+  mainContainer.innerHTML = worksContainer();
+  return mainContainer;
 });
 popupFunc(null);
 closePopupFunc(null);
