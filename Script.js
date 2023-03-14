@@ -185,7 +185,7 @@ ${val.techUse.map((el) => `<li class="lang">${el}</li>`).join('')}
   <img class="work-pic-1" src=${val.pic} alt="professional art printing image" />
 </div>`;
     return cards;
-   });
+  });
   return element;
 }
 
