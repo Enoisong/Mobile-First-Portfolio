@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 const clicked = document.querySelector('#clicked');
 const toolbar = document.querySelector('header');
 const clickedP = document.querySelector('.clicked-p');
@@ -14,6 +15,8 @@ clickedP.addEventListener('click', hideMobileMenu);
 navLinks.forEach((element) => {
   element.addEventListener('click', hideMobileMenu);
 });
+// Creating dynamic projec section
+
 const projects = [
   {
     name: 'Tonic',
@@ -72,7 +75,9 @@ const projects = [
     links: { live: '#', source: '#' },
   },
 ];
+// passing data into the works section
 const works = document.querySelector('.works');
+// eslint-disable-next-line no-plusplus
 for (let index = 0; index < projects.length; index++) {
   const {
     name, description, image, technologies,
@@ -85,6 +90,7 @@ for (let index = 0; index < projects.length; index++) {
   }
   pClasses.value = `grid-items project-1 fonts ${classReverse}`;
   pSection.setAttributeNode(pClasses);
+  // creating image
   const img = document.createElement('img');
   const imgClasses = document.createAttribute('class');
   imgClasses.value = 'project-img';
@@ -99,6 +105,7 @@ for (let index = 0; index < projects.length; index++) {
   imgAlt.value = `Project-${index + 1}`;
   img.setAttributeNode(imgAlt);
   pSection.appendChild(img);
+  // creating details div
   const cdiv = document.createElement('div');
   const cdivClass = document.createAttribute('class');
   cdivClass.value = 'details';
@@ -115,10 +122,12 @@ for (let index = 0; index < projects.length; index++) {
             </div>`;
   const text = `<p>${description}</p>`;
   let li = '';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 3; i++) {
     li += `<li> ${technologies[i]} </li>`;
   }
   const ul = `<ul class="categories hex"> ${li} </ul>`;
+
   const seeBtn = `<div class="see-project">
               <a href="#"
                 ><button type="button" class="hex project-details" data-project="${index}">
@@ -127,24 +136,28 @@ for (let index = 0; index < projects.length; index++) {
               >
             </div>`;
   cdiv.innerHTML = titles + text + ul + seeBtn;
+
   pSection.appendChild(cdiv);
+
   works.appendChild(pSection);
-  const seeProject = document.querySelectorAll('.project-details');
-  const main = document.querySelector('#main');
-  function closePopup() {
-    document.querySelector('#main').classList.remove('main');
-    document.querySelector('#popup').classList.remove('popup');
-    document.querySelector('#popup').classList.add('hidden-popup');
-  }
-  seeProject.forEach((element) => {
-    element.addEventListener('click', () => {
-      document.querySelector('#popup').classList.remove('hidden-popup');
-      document.querySelector('#popup').classList.add('popup');
-      main.classList = 'main';
-      const {
-        name, descriptions, image, technologies, links,
-      } = projects[element.dataset.project];
-      const pTitles = `<div class="p-title">
+}
+// Opening and closing project popup
+const seeProject = document.querySelectorAll('.project-details');
+const main = document.querySelector('#main');
+function closePopup() {
+  document.querySelector('#main').classList.remove('main');
+  document.querySelector('#popup').classList.remove('popup');
+  document.querySelector('#popup').classList.add('hidden-popup');
+}
+seeProject.forEach((element) => {
+  element.addEventListener('click', () => {
+    document.querySelector('#popup').classList.remove('hidden-popup');
+    document.querySelector('#popup').classList.add('popup');
+    main.classList = 'main';
+    const {
+      name, descriptions, image, technologies, links,
+    } = projects[element.dataset.project];
+    const pTitles = `<div class="p-title">
         <div class="p-main-title">
           <h3 class="p-h3">${name}</h3>
           <p id="btn-close">X</p>
@@ -157,22 +170,23 @@ for (let index = 0; index < projects.length; index++) {
           <li class="o-li">2015</li>
         </ul>
       </div>
+
       <img
         class="p-project-img"
         id="project-${Number(element.dataset.project) + 1}"
         src="${image}"
         alt="Project-1"
-        />`;
-      let li = '';
-      for (let i = 0; i < technologies.length; i++) {
-        if (i >= 3) {
-          li += `<li class="categories-li mibele-hidden"> ${technologies[i]} </li>`;
-        } else {
-          li += `<li class="categories-li"> ${technologies[i]} </li>`;
-        }
+      />`;
+    let li = '';
+    for (let i = 0; i < technologies.length; i++) {
+      if (i >= 3) {
+        li += `<li class="categories-li mibele-hidden"> ${technologies[i]} </li>`;
+      } else {
+        li += `<li class="categories-li"> ${technologies[i]} </li>`;
       }
-      const { live, source } = links;
-      const detailss = `<div class="desktop">
+    }
+    const { live, source } = links;
+    const detailss = `<div class="desktop">
         <p class="p-text">
           ${descriptions}
         </p>
@@ -191,9 +205,9 @@ for (let index = 0; index < projects.length; index++) {
             </button></a>
           </div>
         </div>
-        </div>`;
-      document.querySelector('#popup').innerHTML = pTitles + detailss;
-      document.querySelector('#btn-close').addEventListener('click', closePopup);
-    });
+      </div>`;
+    document.querySelector('#popup').innerHTML = pTitles + detailss;
+
+    document.querySelector('#btn-close').addEventListener('click', closePopup);
   });
-}
+});
