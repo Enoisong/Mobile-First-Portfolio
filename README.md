@@ -75,7 +75,6 @@ To run the project:
 Install the Live server extension of the VScode and run Go Live
 
 ### Run tests
-
 To run linters tests, run the following command: 
 npx hint .
 npx stylelint "**/*.{css,scss}"
