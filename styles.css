@@ -60,7 +60,7 @@ a:hover {
     height: 48px;
     justify-content: space-between;
     align-items: center;
-  }  
+  }
 
   .not-cliked {
     display: none;
@@ -117,7 +117,7 @@ a:hover {
     line-height: 44px;
     color: #fff;
   }
- 
+
   .logo-place {
     margin-left: 12px;
   }
@@ -201,8 +201,7 @@ a:hover {
 
   .grid-items {
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    flex-direction: column;   
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -468,7 +467,7 @@ a:hover {
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 12px initial;
+    margin: 12px;
     padding: 9px;
     align-items: center;
   }
@@ -576,8 +575,7 @@ a:hover {
     margin-bottom: 22px;
     resize: none;
   }
-
-  /* for the popup */
+  
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -588,8 +586,7 @@ a:hover {
     position: absolute;
     top: 60px;
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    flex-direction: column;    
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -798,8 +795,7 @@ a:hover {
     align-items: center;
     text-align: center;
   }
-
-  /* Header section */
+  
 
   .headline {
     flex: 1 1 auto;
@@ -854,8 +850,6 @@ a:hover {
     margin: initial;
   }
 
-  /* Work section */
-
   .works {
     display: grid;
     grid-template-columns: auto;
@@ -863,8 +857,7 @@ a:hover {
   }
 
   .grid-items {
-    display: flex;
-    align-items: left;
+    display: flex;    
     gap: 46px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1051,7 +1044,7 @@ a:hover {
     color: #fff;
     cursor: pointer;
   }
- 
+
   .about-myself {
     background-color: #fff;
     display: flex;
@@ -1195,8 +1188,6 @@ a:hover {
     padding-right: 20px;
   }
 
-  /* The contact form  */
-
   .contact-me {
     background-color: #6070ff;
     display: flex;
@@ -1269,8 +1260,7 @@ a:hover {
     width: 100%;
     text-align: center;
   }
-
-  /* for the popup */
+  
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -1284,8 +1274,7 @@ a:hover {
     right: 9vw;
     width: 75%;
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    flex-direction: column;    
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -1451,4 +1440,3 @@ a:hover {
     color: #396df2;
   }
 }
- 
