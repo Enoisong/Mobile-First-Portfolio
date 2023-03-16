@@ -1,19 +1,23 @@
  <a name="readme-top"></a>
-## 📗 Table of Contents
+ # 📗 Table of Contents
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
- - [💻 Getting Started](#getting-started)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
- - [👥 Authors](#authors)
- - [🔭 Future Features](#future-features)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -23,10 +27,14 @@ Mobile First Portfolio is a mobile website designed as part of Microverse course
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML and CSS
+- HTML
+- CSS
+- javascript
 
 ### Tech Stack <a name="tech-stack"></a>
-HTML and CSS
+- HTML
+- CSS
+- javascript
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
@@ -35,10 +43,14 @@ HTML and CSS
 - Work Section
 - About Myself
 - Styling
-- Portfolio Desktop Version
-
+- Mobile Menu
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- GETTING STARTED -->
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+- https://enoisong.github.io/Mobile-First-Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/Portfolio--Setup-and-Mobile-First
@@ -66,22 +78,29 @@ Install the Live server extension of the VScode and run Go Live
 To run linters tests, run the following command: 
 npx hint .
 npx stylelint "**/*.{css,scss}"
+npx eslint .
 
-<!-- AUTHOR -->
-## 👥 Author <a name="author"></a> 
-Enobong Isong
+<!-- AUTHORS -->
+## 👥 Authors <a name="author"></a> 
+- Enobong Isong
+- Wolter Bwambale
 
-👤 **Author**
+👤 **Authors**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
+
+WolterBwambale
+- https://github.com/wolterbwambale
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add List of Portfolio  
 - Add Contact Form  
-- Add Footer
-- Add Animation 
+- Add Footer 
+- Add Animation and Transition 
+- Mobile Menu
+- Pop-up Window
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
