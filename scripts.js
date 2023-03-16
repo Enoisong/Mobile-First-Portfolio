@@ -75,7 +75,7 @@ const projects = [
 const works = document.querySelector('.works');
 for (let index = 0; index < projects.length; index++) {
   const {
-     name, description, image, technologies 
+    name, description, image, technologies,
   } = projects[index];
   const pSection = document.createElement('section');
   const pClasses = document.createAttribute('class');
@@ -141,8 +141,8 @@ for (let index = 0; index < projects.length; index++) {
       document.querySelector('#popup').classList.remove('hidden-popup');
       document.querySelector('#popup').classList.add('popup');
       main.classList = 'main';
-    const {
-        name, descriptions, image, technologies, links 
+      const {
+        name, descriptions, image, technologies, links,
       } = projects[element.dataset.project];
       const pTitles = `<div class="p-title">
         <div class="p-main-title">
@@ -171,7 +171,7 @@ for (let index = 0; index < projects.length; index++) {
           li += `<li class="categories-li"> ${technologies[i]} </li>`;
         }
       }
-    const { live, source } = links;
+      const { live, source } = links;
       const detailss = `<div class="desktop">
         <p class="p-text">
           ${descriptions}
