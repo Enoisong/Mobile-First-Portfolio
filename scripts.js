@@ -1,3 +1,4 @@
+/*eslint no-multi-spaces: ["error", { ignoreEOLComments: true }]*/
 /* eslint-disable no-plusplus */
 const clicked = document.querySelector('#clicked');
 const toolbar = document.querySelector('header');
