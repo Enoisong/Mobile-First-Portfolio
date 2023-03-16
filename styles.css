@@ -61,7 +61,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
   }
-
+   
   .not-cliked {
     display: none;
   }
@@ -117,7 +117,7 @@ a:hover {
     line-height: 44px;
     color: #fff;
   }
-
+  
   .logo-place {
     margin-left: 12px;
   }
@@ -201,7 +201,8 @@ a:hover {
 
   .grid-items {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    align-items: left;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -467,7 +468,7 @@ a:hover {
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 12px;
+    margin: 12px initial;
     padding: 9px;
     align-items: center;
   }
@@ -512,9 +513,7 @@ a:hover {
   .sign {
     padding-right: 20px;
   }
-
-  /* The contact form  */
-
+ 
   .contact-me {
     background-color: #6070ff;
     display: flex;
@@ -575,7 +574,7 @@ a:hover {
     margin-bottom: 22px;
     resize: none;
   }
-  
+   
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -586,7 +585,8 @@ a:hover {
     position: absolute;
     top: 60px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: left;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -795,7 +795,8 @@ a:hover {
     align-items: center;
     text-align: center;
   }
-  
+
+  /* Header section */
 
   .headline {
     flex: 1 1 auto;
@@ -857,7 +858,8 @@ a:hover {
   }
 
   .grid-items {
-    display: flex;    
+    display: flex;
+    align-items: left;
     gap: 46px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1260,7 +1262,7 @@ a:hover {
     width: 100%;
     text-align: center;
   }
-  
+ 
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -1274,7 +1276,8 @@ a:hover {
     right: 9vw;
     width: 75%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: left;
     padding: 16px;
     gap: 12px;
     background: #fff;
