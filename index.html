@@ -12,14 +12,56 @@
     <title>Mobile First Portfolio</title>
 </head>
 <body>
-    <main id="root">
-        <header>
-            <nav class="navbar">
-                <div id="logo">
-                    <a href="#index"><img src="./images/MyLogo.png" alt="logo" /></a>
-                </div>               
-                <div>
-                <img class="openMenu" src="pics/hamburg.svg" alt="hamburg" />
+    <header class="navbar">
+        <a class="logo" href="#">My Logo</a>
+        <nav class="hamburger">
+            <img class="hamburg" src="pics/hamburg.svg" alt="hamburg" />
+        </nav>
+    </header>
+    <section class="header">
+        <div class="introduction">
+            <h1 class="title">I’m Enobong<br>
+                Glad to see you!</h1>
+            <p class="description">I’m a software developer! I can help you build a product , feature or website Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hesitate to contact me.</p>
+            <div class="icon">
+                <p class="text">LET’S CONNECT</p>
+                <ul class="social-icon">
+                    <li class="twitter">
+                    <li> <a href="https://twitter.com/Enobongmisong" target="_blank" rel="noopener noreferrer"><img
+                            src="./images/twitter.svg" alt="twitter icon" /></a></li>
+                    <li> <a href="https://www.linkedin.com/in/enobong-isong/" target="_blank"
+                            rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="Linkedin icon" /></a></li>                    
+                    <li> <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/medium.svg"
+                                alt="Medium icon" /></a></li>
+                    <li> <a href="https://github.com/Enoisong" target="_blank" rel="noopener noreferrer"><img
+                                src="./images/github.svg" alt="Github icon" /></a></li>
+                    <li> <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/angellist.svg"
+                                alt="Angellist icon" /></a></li>
+                </ul>             
+            </div>
+        </div>
+    </section>
+    <section class="workcontainer">
+        <div class="card">
+            <div class="portfolio-img pic1">
+                <img class="pic" src="./pics/works img/work1.svg" alt="card1" />
+            </div>
+            <div class="works-details">
+                <h1 class="comp-title">Tonic</h1>
+                <ul class="work-title">
+                    <li class="client">CANOPY</li>
+                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
+                    <li class="dim">Back End Dev</li>
+                    <li><img src="pics/works img/Counter.svg" alt="dot" /></li>
+                    <li class="dim">2015</li>
+                </ul>
+                <div class="project-desc">
+                    <p>A daily selection of privately 
+                        personalized reads; no accounts or                  
+                        sign-up required.
+                    </p>
                 </div>
                 <ul class="nav-items">
                     <li class="portfolio item"><a href="#works-container" class="link">Portfolio</a></li>
@@ -127,9 +169,68 @@
                             <img src="./images/Icons/arowR.png" alt="arrow bottom icon" />
                         </li>
                     </ul>
+
                 </div>
+                <ul class="langs">
+                    <li class="tag">html</li>                   
+                    <li class="tag">css</li>
+                    <li class="tag">javaScript</li>
+                </ul>
+                <button class="btn">See Project</button>
             </div>
-        </section>
+    <section class="about-container">
+        <div class="top">
+            <div class="about-title">About <br>
+                Myself</div>
+            <div class="about-content">
+                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
+                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                contact me.
+            </div>
+            <div class="about-sm">
+                <h4 class="supporting-text">LET’S CONNECT</h4>
+                <ul class="about-smedia-icons">
+                    <li><img src="pics/github icon.svg" alt="Github"></li>
+                    <li><img src="pics/Linkedin icon.svg" alt="Linkedin"></li>
+                    <li><img src="pics/angellist icon.svg" alt="Angellist"></li>
+                    <li><img src="pics/twitter icon.svg" alt="Linkedin"></li>
+                    <li><img src="pics/m icon.svg" alt="Med"></li>
+                </ul>
+            </div>
+            <button class="btn2">Get my resume</button>
+        </div>
+        <div class="experties">
+            <ul class="skill-list">
+                <li class="languages">
+                    <span class="Lang-title">Languages</span>
+                    <i class="fa fa-angle-down" style="font-size: 24px"></i>
+                </li>
+                <ul class="lang-list">
+                    <li class="lang">
+                        <img src="pics/works img/Icons/js icon.svg" alt="">
+                        <span>JavaScript</span>
+                    </li>
+                    <li class="lang">
+                        <img src="pics/works img/Icons/html icon.svg" alt="">
+                        <span>HTML</span>
+                    </li>
+                    <li class="lang">
+                        <img src="pics/works img/Icons/css icon.svg" alt="">
+                        <span>CSS</span>
+                    </li>
+                </ul>
+                <li class="languages border">
+                    <span class="Lang-title">Framework</span>
+                    <i class="fa fa-angle-right" style="font-size: 24px"></i>
+                </li>
+                <li class="languages border">
+                    <span class="Lang-title">Skills</span>
+                    <i class="fa fa-angle-right" style="font-size: 24px"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
+
         <section id="contact-container">
             <div id="contact-items">
                 <div id="description-contact-box">
@@ -152,3 +253,4 @@
     </main>
 </body>
 </html>
+
