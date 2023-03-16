@@ -74,9 +74,9 @@ const projects = [
 ];
 const works = document.querySelector('.works');
 for (let index = 0; index < projects.length; index++) {
-  const { name, description, image, technologies 
-  }
-    = projects[index];
+  const {
+     name, description, image, technologies 
+  } = projects[index];
   const pSection = document.createElement('section');
   const pClasses = document.createAttribute('class');
   let classReverse = '';
@@ -140,11 +140,11 @@ for (let index = 0; index < projects.length; index++) {
     element.addEventListener('click', () => {
       document.querySelector('#popup').classList.remove('hidden-popup');
       document.querySelector('#popup').classList.add('popup');
-      main.classList = 'main';     
-        const {
-        name, descriptions, image, technologies, links} =
-        projects[element.dataset.project];
-    const pTitles = `<div class="p-title">
+      main.classList = 'main';
+    const {
+        name, descriptions, image, technologies, links 
+      } = projects[element.dataset.project];
+      const pTitles = `<div class="p-title">
         <div class="p-main-title">
           <h3 class="p-h3">${name}</h3>
           <p id="btn-close">X</p>
@@ -172,7 +172,7 @@ for (let index = 0; index < projects.length; index++) {
         }
       }
     const { live, source } = links;
-    const detailss = `<div class="desktop">
+      onst detailss = `<div class="desktop">
         <p class="p-text">
           ${descriptions}
         </p>
@@ -192,8 +192,8 @@ for (let index = 0; index < projects.length; index++) {
           </div>
         </div>
         </div>`;
-       document.querySelector('#popup').innerHTML = pTitles + detailss;
+      document.querySelector('#popup').innerHTML = pTitles + detailss;
       document.querySelector('#btn-close').addEventListener('click', closePopup);
     });
-});
+  });
 }

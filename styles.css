@@ -586,7 +586,7 @@ a:hover {
     position: absolute;
     top: 60px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -795,7 +795,7 @@ a:hover {
     align-items: center;
     text-align: center;
   }
-  
+
   .headline {
     flex: 1 1 auto;
     background-image: url('images/header-bg.png');
