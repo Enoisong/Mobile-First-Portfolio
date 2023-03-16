@@ -172,7 +172,7 @@ for (let index = 0; index < projects.length; index++) {
         }
       }
     const { live, source } = links;
-      onst detailss = `<div class="desktop">
+      const detailss = `<div class="desktop">
         <p class="p-text">
           ${descriptions}
         </p>
