@@ -40,11 +40,11 @@ Mobile First Portfolio is a mobile website designed as part of Microverse course
 ### Key Features <a name="key-features"></a>
 - The toolbar
 - Headline section
-- Work Section
-- About Myself
+- Work-Section
+- About-Myself
 - Styling
-- Mobile Menu
- 
+- Mobile-Menu
+- Window-Popup
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
