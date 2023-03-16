@@ -74,9 +74,9 @@ const projects = [
 ];
 const works = document.querySelector('.works');
 for (let index = 0; index < projects.length; index++) {
-  const 
-  { name, description, image, technologies 
-  } = projects[index];
+  const { name, description, image, technologies 
+  }
+    = projects[index];
   const pSection = document.createElement('section');
   const pClasses = document.createAttribute('class');
   let classReverse = '';
@@ -98,7 +98,7 @@ for (let index = 0; index < projects.length; index++) {
   const imgAlt = document.createAttribute('alt');
   imgAlt.value = `Project-${index + 1}`;
   img.setAttributeNode(imgAlt);
-  pSection.appendChild(img);  
+  pSection.appendChild(img);
   const cdiv = document.createElement('div');
   const cdivClass = document.createAttribute('class');
   cdivClass.value = 'details';
@@ -129,20 +129,21 @@ for (let index = 0; index < projects.length; index++) {
   cdiv.innerHTML = titles + text + ul + seeBtn;
   pSection.appendChild(cdiv);
   works.appendChild(pSection);
-const seeProject = document.querySelectorAll('.project-details');
-const main = document.querySelector('#main');
-function closePopup() {
-  document.querySelector('#main').classList.remove('main');
-  document.querySelector('#popup').classList.remove('popup');
-  document.querySelector('#popup').classList.add('hidden-popup');
-}
-seeProject.forEach((element) => {
-  element.addEventListener('click', () => {
-    document.querySelector('#popup').classList.remove('hidden-popup');
-    document.querySelector('#popup').classList.add('popup');
-    main.classList = 'main';     
-    const { name, descriptions, image, technologies, links } =
-      projects[element.dataset.project];
+  const seeProject = document.querySelectorAll('.project-details');
+  const main = document.querySelector('#main');
+  function closePopup() {
+    document.querySelector('#main').classList.remove('main');
+    document.querySelector('#popup').classList.remove('popup');
+    document.querySelector('#popup').classList.add('hidden-popup');
+  }
+  seeProject.forEach((element) => {
+    element.addEventListener('click', () => {
+      document.querySelector('#popup').classList.remove('hidden-popup');
+      document.querySelector('#popup').classList.add('popup');
+      main.classList = 'main';     
+        const {
+        name, descriptions, image, technologies, links} =
+        projects[element.dataset.project];
     const pTitles = `<div class="p-title">
         <div class="p-main-title">
           <h3 class="p-h3">${name}</h3>
@@ -161,15 +162,15 @@ seeProject.forEach((element) => {
         id="project-${Number(element.dataset.project) + 1}"
         src="${image}"
         alt="Project-1"
-      />`;
-    let li = '';
-    for (let i = 0; i < technologies.length; i++) {
-      if (i >= 3) {
-        li += `<li class="categories-li mibele-hidden"> ${technologies[i]} </li>`;
-      } else {
-        li += `<li class="categories-li"> ${technologies[i]} </li>`;
+        />`;
+      let li = '';
+      for (let i = 0; i < technologies.length; i++) {
+        if (i >= 3) {
+          li += `<li class="categories-li mibele-hidden"> ${technologies[i]} </li>`;
+        } else {
+          li += `<li class="categories-li"> ${technologies[i]} </li>`;
+        }
       }
-    }
     const { live, source } = links;
     const detailss = `<div class="desktop">
         <p class="p-text">
@@ -190,9 +191,9 @@ seeProject.forEach((element) => {
             </button></a>
           </div>
         </div>
-      </div>`;
-    document.querySelector('#popup').innerHTML = pTitles + detailss;
-    document.querySelector('#btn-close').addEventListener('click', closePopup);
-  });
+        </div>`;
+       document.querySelector('#popup').innerHTML = pTitles + detailss;
+      document.querySelector('#btn-close').addEventListener('click', closePopup);
+    });
 });
 }
