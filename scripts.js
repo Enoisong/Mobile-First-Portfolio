@@ -86,7 +86,7 @@ for (let index = 0; index < projects.length; index++) {
     classReverse = 'reverse';
   }
   pClasses.value = `grid-items project-1 fonts ${classReverse}`;
-  pSection.setAttributeNode(pClasses); 
+  pSection.setAttributeNode(pClasses);
   const img = document.createElement('img');
   const imgClasses = document.createAttribute('class');
   imgClasses.value = 'project-img';
@@ -100,7 +100,7 @@ for (let index = 0; index < projects.length; index++) {
   const imgAlt = document.createAttribute('alt');
   imgAlt.value = `Project-${index + 1}`;
   img.setAttributeNode(imgAlt);
-  pSection.appendChild(img); 
+  pSection.appendChild(img);
   const cdiv = document.createElement('div');
   const cdivClass = document.createAttribute('class');
   cdivClass.value = 'details';

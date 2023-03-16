@@ -61,7 +61,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
   }
-   
+
   .not-cliked {
     display: none;
   }
@@ -117,7 +117,7 @@ a:hover {
     line-height: 44px;
     color: #fff;
   }
-  
+
   .logo-place {
     margin-left: 12px;
   }
@@ -513,7 +513,7 @@ a:hover {
   .sign {
     padding-right: 20px;
   }
- 
+
   .contact-me {
     background-color: #6070ff;
     display: flex;
@@ -574,7 +574,7 @@ a:hover {
     margin-bottom: 22px;
     resize: none;
   }
-   
+
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -1262,7 +1262,7 @@ a:hover {
     width: 100%;
     text-align: center;
   }
- 
+
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
