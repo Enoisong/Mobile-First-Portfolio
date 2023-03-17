@@ -75,7 +75,6 @@ To run the project:
 Install the Live server extension of the VScode and run Go Live
 
 ### Run tests
-
 To run linters tests, run the following command: 
 npx hint .
 npx stylelint "**/*.{css,scss}"
@@ -101,7 +100,7 @@ WolterBwambale
 - Add Footer 
 - Add Animation and Transition 
 - Mobile Menu
-- Pop-up Window
+- Pop-up-Window
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,4 +122,4 @@ I would like to acknowledge Microverse community for thier support.
 
 This project is [MIT](./MIT.md) licensed.
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

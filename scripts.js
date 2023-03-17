@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 const clicked = document.querySelector('#clicked');
 const toolbar = document.querySelector('header');
 const clickedP = document.querySelector('.clicked-p');
@@ -14,6 +15,8 @@ clickedP.addEventListener('click', hideMobileMenu);
 navLinks.forEach((element) => {
   element.addEventListener('click', hideMobileMenu);
 });
+// Creating dynamic projec section
+
 const projects = [
   {
     name: 'Tonic',
@@ -72,11 +75,12 @@ const projects = [
     links: { live: '#', source: '#' },
   },
 ];
+// passing data into the works section
 const works = document.querySelector('.works');
+// eslint-disable-next-line no-plusplus
 for (let index = 0; index < projects.length; index++) {
-  const 
-  { name, description, image, technologies 
-  } = projects[index];
+  // eslint-disable-next-line object-curly-newline
+  const { name, description, image, technologies } = projects[index];
   const pSection = document.createElement('section');
   const pClasses = document.createAttribute('class');
   let classReverse = '';
@@ -85,6 +89,7 @@ for (let index = 0; index < projects.length; index++) {
   }
   pClasses.value = `grid-items project-1 fonts ${classReverse}`;
   pSection.setAttributeNode(pClasses);
+  // creating image
   const img = document.createElement('img');
   const imgClasses = document.createAttribute('class');
   imgClasses.value = 'project-img';
@@ -98,7 +103,8 @@ for (let index = 0; index < projects.length; index++) {
   const imgAlt = document.createAttribute('alt');
   imgAlt.value = `Project-${index + 1}`;
   img.setAttributeNode(imgAlt);
-  pSection.appendChild(img);  
+  pSection.appendChild(img);
+  // creating details div
   const cdiv = document.createElement('div');
   const cdivClass = document.createAttribute('class');
   cdivClass.value = 'details';
@@ -115,10 +121,12 @@ for (let index = 0; index < projects.length; index++) {
             </div>`;
   const text = `<p>${description}</p>`;
   let li = '';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 3; i++) {
     li += `<li> ${technologies[i]} </li>`;
   }
   const ul = `<ul class="categories hex"> ${li} </ul>`;
+
   const seeBtn = `<div class="see-project">
               <a href="#"
                 ><button type="button" class="hex project-details" data-project="${index}">
@@ -127,8 +135,12 @@ for (let index = 0; index < projects.length; index++) {
               >
             </div>`;
   cdiv.innerHTML = titles + text + ul + seeBtn;
+
   pSection.appendChild(cdiv);
+
   works.appendChild(pSection);
+}
+// Opening and closing project popup
 const seeProject = document.querySelectorAll('.project-details');
 const main = document.querySelector('#main');
 function closePopup() {
@@ -140,7 +152,8 @@ seeProject.forEach((element) => {
   element.addEventListener('click', () => {
     document.querySelector('#popup').classList.remove('hidden-popup');
     document.querySelector('#popup').classList.add('popup');
-    main.classList = 'main';     
+    main.classList = 'main';
+    // eslint-disable-next-line operator-linebreak, object-curly-newline
     const { name, descriptions, image, technologies, links } =
       projects[element.dataset.project];
     const pTitles = `<div class="p-title">
@@ -156,6 +169,7 @@ seeProject.forEach((element) => {
           <li class="o-li">2015</li>
         </ul>
       </div>
+
       <img
         class="p-project-img"
         id="project-${Number(element.dataset.project) + 1}"
@@ -195,4 +209,3 @@ seeProject.forEach((element) => {
     document.querySelector('#btn-close').addEventListener('click', closePopup);
   });
 });
-}

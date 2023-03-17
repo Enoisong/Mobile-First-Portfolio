@@ -201,7 +201,7 @@ a:hover {
 
   .grid-items {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -575,7 +575,7 @@ a:hover {
     margin-bottom: 22px;
     resize: none;
   }
-  
+
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -586,7 +586,7 @@ a:hover {
     position: absolute;
     top: 60px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     padding: 16px;
     gap: 12px;
     background: #fff;
@@ -795,7 +795,6 @@ a:hover {
     align-items: center;
     text-align: center;
   }
-  
 
   .headline {
     flex: 1 1 auto;
@@ -857,7 +856,7 @@ a:hover {
   }
 
   .grid-items {
-    display: flex;    
+    display: flex;
     gap: 46px;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1260,7 +1259,7 @@ a:hover {
     width: 100%;
     text-align: center;
   }
-  
+
   .main {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -1274,7 +1273,7 @@ a:hover {
     right: 9vw;
     width: 75%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     padding: 16px;
     gap: 12px;
     background: #fff;
