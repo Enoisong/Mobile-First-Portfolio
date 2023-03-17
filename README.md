@@ -68,7 +68,7 @@ https://github.com/Enoisong/Mobile-First-Portfolio.git
 ### Install
 Install this project with:
 
- VSCode
+VSCode
 
 ### Usage
 
