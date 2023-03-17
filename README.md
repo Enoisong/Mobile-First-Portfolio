@@ -45,6 +45,7 @@ Mobile First Portfolio is a mobile website designed as part of Microverse course
 - Styling
 - Mobile-Menu
 - Window-Popup
+- Validate
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
