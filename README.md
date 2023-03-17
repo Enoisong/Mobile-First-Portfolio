@@ -100,7 +100,7 @@ WolterBwambale
 - Add Footer 
 - Add Animation and Transition 
 - Mobile Menu
-- Pop-up Window
+- Pop-up-Window
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
