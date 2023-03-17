@@ -81,6 +81,11 @@ npx hint .
 npx stylelint "**/*.{css,scss}"
 npx eslint .
 
+### Deployment
+It will be deployed after merge
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 ## 👥 Authors <a name="author"></a> 
 - Enobong Isong
@@ -102,6 +107,16 @@ WolterBwambale
 - Add Animation and Transition 
 - Mobile Menu
 - Pop-up-Window
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, as well as feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
