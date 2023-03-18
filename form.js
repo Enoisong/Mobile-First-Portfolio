@@ -33,5 +33,5 @@ form.addEventListener('submit', (event) => {
 });
 form.addEventListener('submit', (event) => {
   // stop form submission
-  event.preventDefault(); 
+  event.preventDefault();
 });
